@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Orange HRM Login Feature",
+    "line": 1,
+    "id": "orange-hrm-login-feature",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "orange-hrm-login-feature;user-should-be-able-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "User should be able to login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "user provides username",
+            "result": {
+              "status": "passed",
+              "duration": 1225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user provides passoword",
+            "result": {
+              "status": "passed",
+              "duration": 432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 1510000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

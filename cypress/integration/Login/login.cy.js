@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import { LoginPageActions } from "../../../../PageObjects/PageActions/LoginPageActions";
+import { LoginPageActions } from "../../../PageObjects/PageActions/LoginPageActions";
 import {Given,When,Then,And} from "cypress-cucumber-preprocessor/steps";
 
 const loginPageActions = new LoginPageActions();
